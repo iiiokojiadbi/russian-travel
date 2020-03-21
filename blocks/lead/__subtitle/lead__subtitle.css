@@ -8,7 +8,7 @@
   text-align: center;
   color: #ffffff;
   margin: 0 0 2rem 0;
-  padding: 0 1rem;
+  grid-area: subtitle;
 }
 
 @media screen and (min-width: 375px) {
@@ -23,7 +23,6 @@
     font-size: 1.875rem;
     line-height: 2.25rem;
     margin: 0 0 4.875rem 0;
-    padding: 0 1.5rem;
   }
 }
 

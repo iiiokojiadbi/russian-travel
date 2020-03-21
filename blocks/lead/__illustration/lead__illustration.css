@@ -2,22 +2,20 @@
   width: 100%;
   margin: 0;
   box-sizing: border-box;
+  grid-area: illustration;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .lead__illustration {
-    width: calc(100% - 6rem);
   }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1440px) {
   .lead__illustration {
-    padding: 0 9.25rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .lead__illustration {
-    padding: 0 14.25rem;
   }
 }
