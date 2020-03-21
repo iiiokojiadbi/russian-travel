@@ -1,0 +1,6 @@
+.header__wrapper-lang {
+  display: flex;
+  justify-content: space-between;
+  max-width: 78px;
+  width: 100%;
+}

@@ -1,3 +1,10 @@
+@import url(./__wrapper-lang/header__wrapper-lang.css);
+@import url(./__lang/header__lang.css);
+@import url(./__lang/_active/header__lang_active.css);
+
 .header {
-    
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 128px);
+  padding-top: 30px;
 }
