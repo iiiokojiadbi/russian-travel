@@ -1,3 +1,16 @@
 .intro__note {
-    
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1.1875rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__note {
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+  }
 }

@@ -13,7 +13,7 @@
     '. subtitle .'
     'illustration illustration illustration';
   justify-items: center;
-  padding-top: 1.125rem;
+  padding: 2rem 0;
   width: 100%;
 }
 
