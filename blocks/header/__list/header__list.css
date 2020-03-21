@@ -1,0 +1,11 @@
+.header__list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  grid-gap: 1.125rem;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,6 +1,4 @@
-.page {
-  max-width: 1440px;
-  margin: 0 auto;
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
