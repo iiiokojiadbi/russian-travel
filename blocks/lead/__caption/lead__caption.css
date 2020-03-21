@@ -1,4 +1,5 @@
 .lead__caption {
+  max-width: 18rem;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -7,4 +8,32 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #ffffff;
+  text-align: left;
+  padding: 0 1rem;
+}
+
+@media screen and (min-width: 375px) {
+  .lead__caption {
+    max-width: 21.4375rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lead__caption {
+    max-width: 39.75rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__caption {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__caption {}
+}
+
+@media screen and (min-width: 1440px) {
+  .lead__caption {}
 }

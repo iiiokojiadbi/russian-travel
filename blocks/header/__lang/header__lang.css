@@ -2,13 +2,16 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.5rem;
-  line-height: 1;
+  font-size: 1.125rem;
+  line-height: 1.0625rem;
   color: #ffffff;
   cursor: pointer;
   margin: 0;
 }
 
-.header__lang:hover {
-
+@media screen and (min-width: 768px) {
+  .header__lang {
+    font-size: 1.5rem;
+    line-height: 1.4375rem;
+  }
 }

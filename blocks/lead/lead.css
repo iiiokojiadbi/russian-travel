@@ -5,8 +5,9 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: repeat(auto, minmax(min-content, max-content));
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.125rem;
+  width: 100%;
 }
