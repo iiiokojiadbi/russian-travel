@@ -1,4 +1,6 @@
 .page {
+  font-family: Inter, sans-serif;
+  text-rendering: optimizeLegibility;
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;

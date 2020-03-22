@@ -1,0 +1,18 @@
+.cover__image {
+  text-decoration: none;
+  background-image: url(../img/dmitrii-vaccinium-22833.png);
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.cover__image:not(:hover) {
+  transition: .3s;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.cover__image:hover {
+  background-color: rgba(0, 0, 0, .6);
+  transition: 0.3s;
+}

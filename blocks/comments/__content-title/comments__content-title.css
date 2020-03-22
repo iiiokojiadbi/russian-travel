@@ -1,0 +1,15 @@
+.comments__content-title {
+  margin: 0 0 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .comments__content-title {
+    margin: 0 0 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .comments__content-title {
+    margin: 0 0 3rem;
+  }
+}
