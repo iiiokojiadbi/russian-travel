@@ -1,0 +1,17 @@
+.video__image {
+  width: 100%;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  border-radius: 0.4rem;
+  transition: .3s;
+}
+
+.cover__image:not(:hover) .video__image {
+  opacity: .3;
+  transition: opacity .3s ease;
+}
+
+.video__link:hover .video__image {
+  opacity: .6;
+  transition: opacity .3s ease;
+}
