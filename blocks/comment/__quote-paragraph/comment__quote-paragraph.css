@@ -1,0 +1,16 @@
+.comment__quote-paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4375rem;
+  margin: 0;
+  color: #ffffff;
+  quotes: "«" "»";
+}
+
+@media screen and (min-width: 1024px) {
+  .comment__quote-paragraph {
+    padding: 2.625rem 0 1rem;
+  }
+}

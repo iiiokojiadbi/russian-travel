@@ -1,0 +1,19 @@
+.comment__author {
+  align-self: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  padding: 1.5rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .comment__author {
+    align-self: flex-start;
+    padding: 0;
+  }
+}

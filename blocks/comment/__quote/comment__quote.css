@@ -1,0 +1,13 @@
+.comment__quote {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .comment__quote { 
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
