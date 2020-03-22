@@ -1,0 +1,10 @@
+.place__url {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin: 0;
+}
