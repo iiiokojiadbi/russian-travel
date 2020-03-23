@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <meta name="description" content="Проектная работа №3 от Яндекс.Практикум" />
   <meta name="author" content="Алексей Селезнев" />
+  <link rel="icon" href="./vendor/img/fav.ico">
+  <link rel="stylesheet" href="./vendor/css/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="icon" href="./vendor/img/fav.ico" type="image">
   <title>Путешествия по России</title>
 </head>
 
@@ -61,7 +62,7 @@
           </li>
         </ul>
       </section>
-      <section class="gallery">
+      <div class="gallery">
         <img src="./blocks/gallery/img/train.png" alt="Изображение вида из окна поезда" class="gallery__item">
         <img src="./blocks/gallery/img/atharva-tulsi.png" alt="Изображение гор" class="gallery__item">
         <img src="./blocks/gallery/img/tuman.png" alt="Изображение поля в тумане" class="gallery__item">
@@ -75,7 +76,7 @@
         <img src="./blocks/gallery/img/kamchatka2.png" alt="Изображение гор на Камчатке" class="gallery__item">
         <img src="./blocks/gallery/img/baikal2.png" alt="Изображение озера Байкал" class="gallery__item">
         <img src="./blocks/gallery/img/ergaki.png" alt="Изображение гор" class="gallery__item">
-      </section>
+      </div>
       <section class="places">
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
@@ -83,7 +84,7 @@
             alt="Калининградская область, изображение одного из мест Куршской косы." class="place__image">
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
-            <a href="http://www.park-kosa.ru/" class="place__url">park-kosa.ru</a>
+            <a href="http://www.park-kosa.ru/" target="_blank" class="place__url">park-kosa.ru</a>
           </div>
           <div class="place__content">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
@@ -101,7 +102,8 @@
             alt="Мурманская область, изображение одного из мест Кольского полуострова." class="place__image">
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
-            <a href="https://www.natgeotv.com/" class="place__url">National Geographic</a>
+            <a href="https://www.nationalgeographic.com/yourshot/?keywords=kolskiy/" target="_blank" class="place__url">National
+              Geographic</a>
           </div>
           <div class="place__content">
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
@@ -114,11 +116,11 @@
         </div>
         <div class="place">
           <h2 class="place__title">Алтай</h2>
-          <img src="./blocks/place/img/nail-gilfanov-527808.png"
-            alt="Республика Алтай, изображение одного из красивейших мест в России." class="place__image">
+          <img src="./blocks/place/img/nail-gilfanov-527808.png" alt="Изображение одного из мест в России."
+            class="place__image">
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
-            <a href="https://www.facebook.com/" class="place__url">Facebook</a>
+            <a href="https://www.facebook.com/" target="_blank" class="place__url">Facebook</a>
           </div>
           <div class="place__content">
             <p class="place__paragraph">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если
@@ -137,7 +139,7 @@
             alt="Иркутская область, изображение крупнейшего озера Байкал, покрытого льдом." class="place__image">
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
-            <a href="https://vk.com/baikalmile" class="place__url">https://vk.com/baikalmile</a>
+            <a href="https://vk.com/baikalmile" target="_blank" class="place__url">https://vk.com/baikalmile</a>
           </div>
           <div class="place__content">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это
@@ -154,7 +156,7 @@
             alt="Республика Карелия, изображение леса карельского национального парка." class="place__image">
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
-            <a href="http://vodlozero.ru/" class="place__url">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru/" target="_blank" class="place__url">http://vodlozero.ru/</a>
           </div>
           <div class="place__content">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
@@ -172,18 +174,24 @@
           исследования
         </p>
         <div class="video__container">
-          <a href="https://vimeo.com/81106671" target="_blank" class="video__link video__link_img_kamchatka">
-            <img src="./blocks/video/img/icon_play.svg" alt="Кнопка play" class="video__play">
-            <p class="video__duration">6:30</p>
-            <h3 class="video__title" lang="en">Colors of Kamchatka</h3>
-            <p class="video__subtitle" lang="en">Director: Pavel Karykhalin</p>
-          </a>
-          <a href="https://vimeo.com/290675450" target="_blank" class="video__link video__link_img_observatory">
-            <img src="./blocks/video/img/icon_play.svg" alt="Кнопка play" class="video__play">
-            <p class="video__duration">24:45</p>
-            <h3 class="video__title">Обсерватория&nbsp;| <span lang="en">Observatory</span></h3>
-            <p class="video__subtitle" lang="en">Director: Alexander Khudokon</p>
-          </a>
+          <div class="video__item">
+            <img src="./blocks/video/img/kamchatka.jpg" alt="Изображение полуострова Камчатка" class="video__image" />
+            <a href="https://vimeo.com/81106671" target="_blank" class="video__link">
+              <p class="video__duration">6:30</p>
+              <h3 class="video__title" lang="en">Colors of Kamchatka</h3>
+              <p class="video__subtitle" lang="en">Director: Pavel Karykhalin</p>
+            </a>
+          </div>
+          <div class="video__item">
+            <img src="./blocks/video/img/observatory.jpg" alt="Изображение обсерватории" class="video__image" />
+            <a href="https://vimeo.com/290675450" target="_blank" class="video__link">
+              <p class="video__duration">24:45</p>
+              <h3 class="video__title">Обсерватория&nbsp;| <span lang="en">Observatory</span></h3>
+              <p class="video__subtitle" lang="en">
+                Director: Alexander Khudokon
+              </p>
+            </a>
+          </div>
         </div>
       </section>
       <section class="comments">
@@ -219,7 +227,7 @@
         </div>
       </section>
       <section class="cover">
-        <a href="#" class="cover__image">
+        <a href="Изображение депо с грузовыми составами поездов" target="_blank" class="cover__image">
           <h2 class="cover__title">
             До Байкала &#171;на&nbsp;собаках&#187;
           </h2>

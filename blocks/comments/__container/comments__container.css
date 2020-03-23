@@ -5,10 +5,6 @@
   flex-wrap: wrap;
 }
 
-@media screen and (min-width: 768px) {
-  .comments__container {}
-}
-
 @media screen and (min-width: 1024px) {
   .comments__container {
     flex-direction: row;

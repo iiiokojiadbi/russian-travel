@@ -30,11 +30,3 @@
     padding-left: 0;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .lead__caption {}
-}
-
-@media screen and (min-width: 1440px) {
-  .lead__caption {}
-}

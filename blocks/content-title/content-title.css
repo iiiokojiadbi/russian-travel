@@ -25,11 +25,3 @@
     margin: 0 0 3rem;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .content-title {}
-}
-
-@media screen and (min-width: 1440px) {
-  .content-title {}
-}

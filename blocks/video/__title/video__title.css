@@ -1,18 +1,23 @@
 .video__title {
-  color: #ffffff;
-  font-size: 1.5rem;
-  line-height: 1.625rem;
-  font-weight: 900;
+  width: 15.625rem;
   margin: 0;
-  grid-column: 2 / 3;
-  grid-row: 5 / 7;
-  transition: .3s;
-  align-self: flex-end;
+  padding: 0;
+  color: #ffffff;
+  font-size: 2.25rem;
+  line-height: 2.4375rem;
+  font-weight: 900;
+  margin: 0 0 0.6rem;  
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1024px) {
   .video__title {
-    font-size: 2.25rem;
-    line-height: 2.4375rem;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__title {
+    width: 55%;
   }
 }

@@ -1,0 +1,12 @@
+.video__item {
+  position: relative;
+  width: 49%;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .video__item {
+    width: 100%;
+    margin-bottom: .5rem;
+  }
+}

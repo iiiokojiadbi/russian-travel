@@ -31,11 +31,3 @@
     max-width: 48.875rem;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .lead__title {}
-}
-
-@media screen and (min-width: 1440px) {
-  .lead__title {}
-}
