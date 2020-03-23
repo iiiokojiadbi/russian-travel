@@ -9,8 +9,8 @@
   align-items: center;
   width: 100%;
   padding: 1rem 1rem;
-  /*min-height: 4.625rem; */
   box-sizing: border-box;
+  transition: .3s;
 }
 
 @media screen and (min-width: 768px) {
@@ -28,5 +28,6 @@
 @media screen and (min-width: 1440px) {
   .header {
     padding: 1.875rem 8rem 1.5rem;
+    max-width: 92.5%;
   }
 }

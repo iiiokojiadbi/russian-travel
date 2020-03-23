@@ -5,43 +5,10 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  display: grid;
-  grid-template-columns: 1rem 1fr 1rem;
-  grid-template-rows: repeat(3, minmax(min-content, max-content));
-  grid-template-areas:
-    '. title .'
-    '. subtitle .'
-    'illustration illustration illustration';
-  justify-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   transition: .3s;
-}
-
-@media screen and (min-width: 768px) {
-  .lead {
-    grid-template-columns: 1.5rem 1fr 1.5rem;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .lead {
-    grid-template-columns: 3rem 1fr 3rem;
-    grid-template-areas:
-      '. title .'
-      '. subtitle .'
-      '. illustration .';
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead {
-    grid-template-columns: 9.25rem 1fr 9.25rem;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .lead {
-    grid-template-columns: 14.25rem 1fr 14.25rem;
-  }
+  max-width: 92.5%;
+  margin: 0 auto;
 }

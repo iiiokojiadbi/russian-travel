@@ -7,8 +7,8 @@
   text-align: center;
   color: #ffffff;
   margin: 0 0 .5rem 0;
-  grid-area: title;
   transition: .3s;
+  width: 100%;
 }
 
 @media screen and (min-width: 375px) {
