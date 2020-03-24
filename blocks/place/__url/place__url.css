@@ -3,10 +3,11 @@
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.875rem;
-  text-decoration-line: underline;
   color: #ffffff;
   margin: 0;
   transition: opacity 0.5s ease;
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
 }
 
 .place__url:hover {

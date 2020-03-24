@@ -16,6 +16,13 @@
   }
 }
 
+@media screen and (min-width: 500px) {
+  .cover__title {
+    font-size: 3rem;
+    line-height: 3.3rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .cover__title {
     max-width: 45rem;

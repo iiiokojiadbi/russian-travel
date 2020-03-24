@@ -17,18 +17,18 @@
 
 @media screen and (min-width: 768px) {
   .video {
-    padding: 2rem 1.5rem;
+    padding: 3.125rem 1.5rem;
   }
 }
 
 @media screen and (min-width: 1023px) {
   .video {
-    padding: 2rem 3rem;
+    padding: 3.125rem 3rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .video {
-    padding: 2rem 8rem;
+    padding: 3.125rem 8rem;
   }
 }

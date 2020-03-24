@@ -5,16 +5,23 @@
 
 .cover {
   display: grid;
+  padding: 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .cover {
+    padding: 3.1875rem 3rem;
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
-    padding: 2rem 3rem;
+    padding: 3.1875rem 3rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .cover {
-    padding: 2rem 8rem;
+    padding: 3.1875rem 8rem;
   }
 }

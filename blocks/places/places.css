@@ -2,6 +2,6 @@
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-  padding: 2rem 0rem;
+  padding: 3.1875rem 0rem;
   transition: .3s;
 }

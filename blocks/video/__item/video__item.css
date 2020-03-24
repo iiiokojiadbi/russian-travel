@@ -2,11 +2,17 @@
   position: relative;
   width: 49%;
   border-radius: 1rem;
+  margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .video__item:first-child {
+    margin-right: 16px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .video__item {
     width: 100%;
-    margin-bottom: .5rem;
   }
 }

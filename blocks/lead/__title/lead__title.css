@@ -8,12 +8,27 @@
   color: #ffffff;
   margin: 0 0 .5rem 0;
   transition: .3s;
-  width: 100%;
 }
 
 @media screen and (min-width: 375px) {
   .lead__title {
     max-width: 21.4375rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .lead__title {
+    max-width: 30rem;
+    font-size: 3.5rem;
+    line-height: 3.75rem;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .lead__title {
+    max-width: 38rem;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
   }
 }
 
