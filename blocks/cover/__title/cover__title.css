@@ -43,7 +43,3 @@
     margin: 17.125rem auto 6rem;
   }
 }
-
-@media screen and (min-width: 1440px) {
-  .cover__title {}
-}

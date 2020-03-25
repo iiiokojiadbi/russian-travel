@@ -6,11 +6,12 @@
 .cover {
   display: grid;
   padding: 2rem 0;
+  transition: .3s;
 }
 
 @media screen and (min-width: 768px) {
   .cover {
-    padding: 3.1875rem 3rem;
+    padding: 3.1875rem 0;
   }
 }
 

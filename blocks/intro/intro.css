@@ -7,7 +7,7 @@
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(1fr, 100%);
+  grid-template-columns: minmax(100%, 1fr);
   grid-template-rows: minmax(min-content, max-content) 1fr minmax(min-content, max-content);
   justify-items: start;
   row-gap: 2rem;
@@ -32,7 +32,7 @@
     padding: 3.1875rem 9.25rem;
   }
 }
-
+/* Поправил блок lead, больше отступа нет*/
 @media screen and (min-width: 1440px) {
   .intro {
     padding: 3.1875rem 14.25rem;
