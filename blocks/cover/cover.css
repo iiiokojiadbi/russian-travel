@@ -1,12 +1,12 @@
-@import url(./__image/cover__image.css);
-@import url(./__link/cover__link.css);
-@import url(./__title/cover__title.css);
-@import url(./__subtitle/cover__subtitle.css);
+@import url('./__image/cover__image.css');
+@import url('./__link/cover__link.css');
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
 
 .cover {
   display: grid;
   padding: 2rem 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 768px) {

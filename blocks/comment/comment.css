@@ -1,14 +1,14 @@
-@import url(./__image/comment__image.css);
-@import url(./__quote/comment__quote.css);
-@import url(./__quote-paragraph/comment__quote-paragraph.css);
-@import url(./__author/comment__author.css);
+@import url('./__image/comment__image.css');
+@import url('./__quote/comment__quote.css');
+@import url('./__quote-paragraph/comment__quote-paragraph.css');
+@import url('./__author/comment__author.css');
 
 .comment {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1.5rem 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .comment:last-child {

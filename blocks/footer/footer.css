@@ -1,7 +1,7 @@
-@import url(./__copyright/footer__copyright.css);
-@import url(./__link/footer__link.css);
-@import url(./__list/footer__list.css);
-@import url(./__item/footer__item.css);
+@import url('./__copyright/footer__copyright.css');
+@import url('./__link/footer__link.css');
+@import url('./__list/footer__list.css');
+@import url('./__item/footer__item.css');
 
 .footer {
   display: flex;
@@ -10,7 +10,7 @@
   width: 92.5%;
   margin: 0 auto;
   padding: 2rem 0 1.5rem;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 700px) {

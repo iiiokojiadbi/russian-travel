@@ -6,7 +6,7 @@
   text-align: center;
   color: #ffffff;
   white-space: pre-line;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 500px) {
@@ -31,7 +31,6 @@
     line-height: 3.75rem;
   }
 }
-
 
 @media screen and (min-width: 1024px) {
   .content-title {

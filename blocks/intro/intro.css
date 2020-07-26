@@ -1,18 +1,21 @@
-@import url(./__title/intro__title.css);
-@import url(./__paragraph/intro__paragraph.css);
-@import url(./__list/intro__list.css);
-@import url(./__list-item/intro__list-item.css);
-@import url(./__note/intro__note.css);
-@import url(./__span-accent/intro__span-accent.css);
+@import url('./__title/intro__title.css');
+@import url('./__paragraph/intro__paragraph.css');
+@import url('./__list/intro__list.css');
+@import url('./__list-item/intro__list-item.css');
+@import url('./__note/intro__note.css');
+@import url('./__span-accent/intro__span-accent.css');
 
 .intro {
   display: grid;
   grid-template-columns: minmax(100%, 1fr);
-  grid-template-rows: minmax(min-content, max-content) 1fr minmax(min-content, max-content);
+  grid-template-rows: minmax(min-content, max-content) 1fr minmax(
+      min-content,
+      max-content
+    );
   justify-items: start;
   row-gap: 2rem;
   padding: 2rem 1rem;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 768px) {
